@@ -21,10 +21,7 @@ show()
 
 # Create a (continous) random variable with normal distribution
 y = stats.norm()
-x = linspace( -
-
-
-              5,5,100)
+x = linspace( -5,5,100)
 fig, axes = subplots(3,1, sharex=True)
 # plot the probability distribution function (PDF)
 axes[0].plot(x, y.pdf(x))
